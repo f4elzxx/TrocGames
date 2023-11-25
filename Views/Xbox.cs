@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TROCGames
+namespace TROCGames.Views
 {
-    public partial class Form1 : Form
+    public partial class Xbox : Form
     {
-        public Form1()
+        public Xbox()
         {
             InitializeComponent();
+        }
+
+        private void Xbox_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

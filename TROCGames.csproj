@@ -47,16 +47,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Banco\ConexaoBanco.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Fundo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Fundo.Designer.cs">
+      <DependentUpon>Fundo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Views\Playstation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Playstation.Designer.cs">
+      <DependentUpon>Playstation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fundo.resx">
+      <DependentUpon>Fundo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -68,6 +83,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\Playstation.resx">
+      <DependentUpon>Playstation.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,6 +125,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Prancheta 1 %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dddb92-e4e8b560-016f-4091-ae3d-c12046b11f8a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marvel-vs-capcom-characters-1920-x-1080-wallpaper-csqcbca78hnvd8q6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prancheta 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prancheta 12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prancheta 13.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

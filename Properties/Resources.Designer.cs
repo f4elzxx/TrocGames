@@ -84,6 +84,36 @@ namespace TROCGames.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dddb92_e4e8b560_016f_4091_ae3d_c12046b11f8a {
+            get {
+                object obj = ResourceManager.GetObject("dddb92-e4e8b560-016f-4091-ae3d-c12046b11f8a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit {
+            get {
+                object obj = ResourceManager.GetObject("exit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marvel_vs_capcom_characters_1920_x_1080_wallpaper_csqcbca78hnvd8q6 {
+            get {
+                object obj = ResourceManager.GetObject("marvel-vs-capcom-characters-1920-x-1080-wallpaper-csqcbca78hnvd8q6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nintendo_logo_1_1__1_ {
             get {
                 object obj = ResourceManager.GetObject("nintendo-logo-1-1 (1)", resourceCulture);
@@ -147,6 +177,56 @@ namespace TROCGames.Properties {
         internal static System.Drawing.Bitmap Prancheta_1__7_ {
             get {
                 object obj = ResourceManager.GetObject("Prancheta 1 (7)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_11 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_12 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_13 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 13", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_14 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_2 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
